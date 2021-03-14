@@ -11,12 +11,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 
-public class Requester {
+public class RequestWriter {
     private String request;
     private String path;
     private final HashMap<Integer, ArrayList<String>> result = new HashMap<>();
 
-    public Requester(String request, String path){
+    public RequestWriter(String request, String path){
         this.path = path;
         this.request = request;
     }
